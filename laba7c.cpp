@@ -16,7 +16,7 @@ void main()
 	SetConsoleCP(1251);
 
 	char s[50], s1[10], s2[10];
-	int l, k;
+	int i, k;
 
 	printf("Введите строку s \n");
 	gets_s(s);
@@ -29,8 +29,8 @@ void main()
 	char a[70];
 	while (p)
 	{
-		l = strlen(s);
-		k = l - strlen(p);
+		i = strlen(s);
+		k = i - strlen(p);
 		strcpy(a, p + strlen(s1));
 		s[k] = '\0';
 		strcat_s(s, s2);
