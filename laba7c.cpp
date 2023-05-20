@@ -22,7 +22,7 @@ void main()
 	gets_s(s);
 	printf("Введите строку s1 \n");//isxodв
 	gets_s(s1);
-	printf("Введите строку s2 \n");//zamena
+	printf("Введите строку s2 \n");//zamenaывыв
 	gets_s(s2);
 
 	char* p = strstr(s, s1);
