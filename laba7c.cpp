@@ -25,7 +25,7 @@ void main()
 	printf("Введите строку s2 \n");//zamenaывыв
 	gets_s(s2);
 
-	char* p = strstr(s, s1);
+	char* p = strstr(s, s1);//asdsad
 	char a[70];
 	while (p)
 	{
