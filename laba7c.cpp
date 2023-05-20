@@ -20,7 +20,7 @@ void main()
 
 	printf("Введите строку s \n");
 	gets_s(s);
-	printf("Введите строку s1 \n");//isxod
+	printf("Введите строку s1 \n");//isxodв
 	gets_s(s1);
 	printf("Введите строку s2 \n");//zamena
 	gets_s(s2);
